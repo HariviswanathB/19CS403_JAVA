@@ -21,13 +21,35 @@ b.	If false, print 'num' followed by " is Non-Zero"
  ```
 /*
 Program to implement a class & objects using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Hariviswanath B
+RegisterNumber: 212222040051
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
+public class Demo {
 
+    
+  public static void main(String[] args)
+    {
+	   Scanner in = new Scanner(System.in);
+       int num = in.nextInt();
+       String Name = "";
+       switch (num) {
+           case 1: Name = "a"; break;
+           case 2: Name = "e"; break;
+           case 3: Name = "i"; break;
+           case 4: Name = "o"; break;
+           case 5: Name = "u"; break;
+           default:Name = "Invalid range";
+       }
+
+      System.out.println(Name);
+    }
+}
+```
 
 
 
@@ -36,6 +58,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+<img width="472" alt="Screenshot 2025-05-27 at 8 48 22 PM" src="https://github.com/user-attachments/assets/2801a203-9010-417b-8f39-4d754401c8c1" />
 
 
 ## RESULT:
