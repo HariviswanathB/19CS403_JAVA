@@ -24,13 +24,34 @@ b)	If the condition is false, print "false" using the 'print' method of 'System.
  ```
 /*
 Program to implement a variable and operators using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Hariviswanath B
+RegisterNumber: 212222040051
 */
 ```
 
 ## Sourcecode.java:
+```
 
+import java.util.Scanner;
+
+public class Age {
+    public void calculateAge() {
+        Scanner scanner = new Scanner(System.in);
+        int age = scanner.nextInt();
+        if (age >= 58) {
+            System.out.println("Eligible to Retire");
+        } else {
+            System.out.println("Not Eligible to Retire");
+        }
+    }
+
+    public static void main(String[] args) {
+        Age person = new Age();
+        person.calculateAge();
+    }
+}
+
+```
 
 
 
