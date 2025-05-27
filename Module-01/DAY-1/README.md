@@ -26,15 +26,29 @@ RegisterNumber:
 ```
 
 ## Sourcecode.java:
+```
+class Student
+{
+    String name;
+    int roll_no;
+}
+public class Main {
+    public static void main(String[] args) {
+        Student obj= new Student();
+         obj.name="John";
+        obj.roll_no=5;
+      System.out.println(obj.name+" "+obj.roll_no);
+    }    
+}
 
 
 
-
-
+```
 
 
 ## OUTPUT:
 
+<img width="390" alt="Screenshot 2025-05-27 at 7 31 51 PM" src="https://github.com/user-attachments/assets/dd5ad032-f568-4245-82d2-85ebb0348619" />
 
 
 ## RESULT:
