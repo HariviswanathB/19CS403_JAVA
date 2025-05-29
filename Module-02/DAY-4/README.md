@@ -22,13 +22,40 @@ To create a java program that returns the sum of all the values in a 2D array.
  ```
 /*
 Program to implement a Multi Dimensional Array using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Hariviswanath B
+RegisterNumber: 212222040051
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
 
+public class LargestElement {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        int size = scanner.nextInt();
+        int[] array = new int[size];
+
+        for (int i = 0; i < size; i++) {
+            array[i] = scanner.nextInt();
+        }
+
+        int largest = array[0]; // Assume the first element is the largest initially
+
+        for (int i = 1; i < size; i++) {
+            if (array[i] > largest) {
+                largest = array[i];
+            }
+        }
+
+        System.out.println("The largest element in the array is: " + largest);
+
+        scanner.close();
+    }
+}
+```
 
 
 
@@ -36,6 +63,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+<img width="757" alt="Screenshot 2025-05-29 at 10 09 34 PM" src="https://github.com/user-attachments/assets/281d37fa-dcc9-40b4-a991-98bba00e0839" />
 
 
 
