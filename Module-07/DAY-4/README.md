@@ -16,20 +16,36 @@
  ```
 /*
 Program to implement a Packages using Java
-Developed by: 
-RegisterNumber:  
+Developed by: 212222040051
+RegisterNumber: Hariviswanath B
 */
 ```
 
 ## Sourcecode.java:
 
+```
+  class Display {
 
+	static synchronized void wish(String name) {
+		for (int i = 0; i <= 1; i++) {
+			System.out.print("Welcome :: ");
+			try {
+				Thread.sleep(600);
+			} catch (InterruptedException e) {
+
+			}
+			System.out.println(name);
+		}
+	}
+  }
+```
 
 
 
 
 
 ## OUTPUT:
+<img width="874" alt="Screenshot 2025-05-30 at 12 04 03 AM" src="https://github.com/user-attachments/assets/12b2ba60-2b1c-4a03-9d5e-5e607257995f" />
 
 
 
