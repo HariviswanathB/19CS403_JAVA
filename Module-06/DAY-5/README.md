@@ -24,13 +24,45 @@ b.	Call the methods to get input and display results.
  ```
 /*
 Program to implement a Multiple Inheritance
-Developed by: 
-RegisterNumber:  
+Developed by: Hariviswanath B
+RegisterNumber: 212222040051 
 */
 ```
 
 ## Sourcecode.java:
-
+```
+class Media
+{
+    Media()
+    {
+        System.out.println("Parent Class is Media");
+    }
+}
+class Magazine extends Media
+{
+    Magazine()
+    {
+        super();
+        System.out.println("Magazine is the one of the Child of Media Class");
+    }
+}
+class Channel extends Media
+{
+    Channel()
+    {
+        super();
+        System.out.println("Channel is the one of the Child of Media Class");
+    }
+}
+public class Main
+{
+    public static void main(String [] args)
+    {
+        Magazine m = new Magazine();
+        Channel c = new Channel();
+    }
+}
+```
 
 
 
@@ -39,6 +71,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+<img width="1008" alt="Screenshot 2025-05-29 at 11 59 06 PM" src="https://github.com/user-attachments/assets/99f406b6-daef-4846-9ea6-1bcb693dfe21" />
 
 
 ## RESULT:
