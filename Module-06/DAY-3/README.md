@@ -24,20 +24,40 @@
  ```
 /*
 Program to implement a Hierarchical Inheritance using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Hariviswanath B
+RegisterNumber: 212222040051
 */
 ```
 
 ## Sourcecode.java:
 
+```
+pack/A.java
 
+package pack;
+public class A {
+    public void display() {
+        System.out.println("Hello from class A in package pack");
+    }
+}
+mypack/B.java
+package mypack;
+import pack.A;
+public class B {
+    public static void main(String[] args) {
+        A obj = new A();
+        obj.display();
+    }
+}
+
+```
 
 
 
 
 
 ## OUTPUT:
+<img width="835" alt="Screenshot 2025-05-29 at 11 37 10 PM" src="https://github.com/user-attachments/assets/841955f4-6ed4-40d5-8ef9-6a435bf17536" />
 
 
 
