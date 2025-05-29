@@ -21,13 +21,31 @@ To create a java program for calculate cube of a number using static method.
  ```
 /*
 Program to implement a Static method using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Hariviswanath B
+RegisterNumber: 212222040051
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
 
+public class CubeCalculator {
+
+    public static int calculateCube(int number) {
+        return number * number * number;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int inputNumber = scanner.nextInt();
+        int cube = calculateCube(inputNumber);
+        System.out.println("Cube is: " + cube);
+
+        scanner.close();
+    }
+}
+```
 
 
 
@@ -35,6 +53,7 @@ RegisterNumber:
 
 
 ## OUTPUT:
+<img width="382" alt="Screenshot 2025-05-29 at 10 04 41 PM" src="https://github.com/user-attachments/assets/38ae5be8-ea4c-4e7d-adba-f56ae1e52566" />
 
 
 
