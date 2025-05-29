@@ -27,21 +27,56 @@ To Create a java program to display the value of volume of cylinder get the radi
  ```
 /*
 Program to implement a tightly encapsulated class using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Hariviswanath B
+RegisterNumber: 212222040051
 */
 ```
 
 ## Sourcecode.java:
 
+```
+import java.util.Scanner;
 
+class StringReverser {
+    private String text;
+
+    public void setText(String text) {
+        this.text = text;
+    }
+
+    public String getReversedText() {
+        StringBuilder sb = new StringBuilder(text);
+        return sb.reverse().toString();
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        StringReverser sr = new StringReverser();
+
+        String input = scanner.nextLine();
+        sr.setText(input);
+
+        System.out.println(sr.getReversedText());
+        scanner.close();
+    }
+}
+```
 
 
 
 
 
 ## OUTPUT:
+```
+Input     Expected    Got
 
+pot       top         top
+
+lap       pal         pal
+
+```
 
 
 ## RESULT:
