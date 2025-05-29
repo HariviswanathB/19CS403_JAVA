@@ -33,23 +33,20 @@ RegisterNumber: 212222040051
 
 ## Sourcecode.java:
 ```
-import java.util.Scanner;
-
-public class CubeCalculator {
-
-    public static int calculateCube(int number) {
-        return number * number * number;
+public class A
+{ 
+    private void display() 
+    { 
+        int a=8,b=9;
+        System.out.println(a+b); 
     }
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int inputNumber = scanner.nextInt();
-        int cube = calculateCube(inputNumber);
-        System.out.println("Cube is: " + cube);
-
-        scanner.close();
+    public static void main(String args[])
+    {
+        A obj= new A();
+        obj.display();
     }
 }
+
 ```
 
 
@@ -58,7 +55,11 @@ public class CubeCalculator {
 
 
 ## OUTPUT:
+```
+Expected    Got 
 
+17          17
+```
 
 ## RESULT:
 Thus the java program to display the addition number using private modifiers only was executed successfully.
