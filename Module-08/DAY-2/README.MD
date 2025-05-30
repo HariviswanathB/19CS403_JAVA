@@ -17,13 +17,18 @@ To create a java program to append a NUMBER in a file “testout.txt” using Wr
  ```
 /*
 Program to implement a IO File Reader/Writer using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Hariviswanath B
+RegisterNumber: 212222040051
 */
 ```
 
 ## Sourcecode.java:
-
+```
+Writer w1 = new FileWriter("testout.txt",true);  
+w1.append("Hi Everybody");  
+w1.close();  
+System.out.println("Append the character in the File Successfully");  
+```
 
 
 
