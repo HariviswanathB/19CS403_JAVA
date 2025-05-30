@@ -19,13 +19,30 @@
  ```
 /*
 Program to implement a ARRAY LIST using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Hariviswanath B
+RegisterNumber: 212222040051
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;
 
+public class Main { 
+  public static void main(String[] args) { 
+    ArrayList<Integer> myNumbers = new ArrayList<Integer>();
+    Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt();
+    for(int i=0;i<n;i++)
+    {
+    myNumbers.add(sc.nextInt());
+    }
+    for (int i : myNumbers) {
+      System.out.println(i);
+    }
+  } 
+}
+```
 
 
 
@@ -33,6 +50,8 @@ RegisterNumber:
 
 
 ## OUTPUT:
+
+<img width="385" alt="Screenshot 2025-05-30 at 1 41 17 PM" src="https://github.com/user-attachments/assets/8261b5e5-4d74-43da-9a77-cabc2e92e25b" />
 
 
 
