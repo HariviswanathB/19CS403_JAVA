@@ -13,13 +13,38 @@ d.	Iterate through the map using a for-each loop and display the entries
  ```
 /*
 Program to implement a HASHMAP
-Developed by: 
-RegisterNumber:  
+Developed by: Hariviswanath B
+RegisterNumber: 212222040051 
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;  
+public class Mapp{  
+ public static void main(String args[]){ 
+     
+  HashMap<Integer,String> map=new HashMap<Integer,String>(); 
+  Scanner sc=new Scanner(System.in);
+  
+  int size=sc.nextInt();
+  for(int i=0;i<size;i++)
+  {
+  Integer a=sc.nextInt();
+  String b=sc.next();
+  map.put(a,b);  
+  } 
+ 
+  
+ Iterator<Integer> keySetIterator = map.keySet().iterator(); while(keySetIterator.hasNext()){ Integer key = keySetIterator.next(); System.out.println("key: " + key + " value: " + map.get(key)); }
 
+System.out.println("Does HashMap contains 104 as key: " + map.containsKey(104));
+
+
+
+ }  
+}  
+```
 
 
 
@@ -28,6 +53,8 @@ RegisterNumber:
 
 ## OUTPUT:
 
+
+<img width="954" alt="Screenshot 2025-05-30 at 1 49 54 PM" src="https://github.com/user-attachments/assets/7615836c-1d26-4c8f-9f8d-5e2055636324" />
 
 
 ## RESULT:
