@@ -25,20 +25,37 @@ To Write a java program to create vector and read the elements for two vector in
  ```
 /*
 Program to implement a JAVA QUEUE using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Hariviswanath B
+RegisterNumber: 212222040051
 */
 ```
 
 ## Sourcecode.java:
 
-
+```
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        
+        PriorityQueue<Integer>t=new PriorityQueue<Integer>();
+        Scanner sc=new Scanner(System.in);
+        int size = sc.nextInt();
+        for(int i=0;i<size;i++){
+            t.offer(sc.nextInt());
+        }
+            System.out.println("Display the element of Queue:");
+            System.out.println(t);
+        }
+    }
+```
 
 
 
 
 
 ## OUTPUT:
+
+<img width="813" alt="Screenshot 2025-05-30 at 1 53 29 PM" src="https://github.com/user-attachments/assets/6d23587c-0788-4f34-93ca-922d858ff7d9" />
 
 
 
