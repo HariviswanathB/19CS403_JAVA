@@ -15,13 +15,28 @@ To demonstrate how to remove and display the first element from a Deque using th
  ```
 /*
 Program to implement a JAVA DEQUEUE
-Developed by: 
-RegisterNumber:  
+Developed by: Hariviswanath B
+RegisterNumber: 212222040051
 */
 ```
 
 ## Sourcecode.java:
-
+```
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Deque<String>t=new ArrayDeque<String>();
+        Scanner sc=new Scanner(System.in);
+        int size=sc.nextInt();
+        for(int i=0;i<size;i++){
+            t.offer(sc.next());
+        }
+        System.out.println("Display the element of Dequeue:");
+        System.out.println(t);
+        System.out.println(t.pollLast());
+    }
+}
+```
 
 
 
@@ -29,6 +44,8 @@ RegisterNumber:
 
 
 ## OUTPUT:
+
+<img width="821" alt="Screenshot 2025-05-30 at 1 54 22 PM" src="https://github.com/user-attachments/assets/d3f1b503-20b0-48e5-8377-c49f8c3bba14" />
 
 
 
