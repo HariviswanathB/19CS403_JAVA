@@ -17,13 +17,26 @@
  ```
 /*
 Program to implement a Filter Reader using Java
-Developed by: 
-RegisterNumber:  
+Developed by: Hariviswanath B
+RegisterNumber: 212222040051
 */
 ```
 
 ## Sourcecode.java:
-
+```
+class CustomFilterReader1 extends FilterReader {  
+    CustomFilterReader1(Reader in) {  
+        super(in);  
+    }  
+    public int read() throws IOException {  
+        int x = super.read();  
+        if ((char) x == ' ')  
+            return ((int) '*');  
+        else  
+            return x;  
+    }  
+}  
+```
 
 
 
@@ -32,6 +45,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+<img width="540" alt="Screenshot 2025-05-30 at 1 31 45 PM" src="https://github.com/user-attachments/assets/c8af83f6-6f7f-4310-9859-bdfda71f6c8d" />
 
 
 ## RESULT:
